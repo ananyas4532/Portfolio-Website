@@ -1,4 +1,4 @@
-import { Code } from "lucide-react";
+import { Briefcase, Code, User } from "lucide-react";
 
 export const AboutSection = () => {
   return (
@@ -26,7 +26,11 @@ export const AboutSection = () => {
               I have practical experience developing modern web interfaces,
               combining clean design with efficient functionality. My goal is
               to deliver solutions that are both visually appealing and
-              performance-driven.
+              performance-driven.<br/>
+              I’m a passionate dancer who loves moving to the rhythm, an avid traveler always
+               searching for new horizons,
+               and a creative painter who enjoys expressing myself through colors and brushstrokes.
+
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -49,13 +53,16 @@ export const AboutSection = () => {
                 <div className="p-3 rounded-full bg-primary-10">
                   <Code className="h-6 w-6 text-primary" />
                 </div>
-              </div>
-            </div>
+                <div className="text-left">
+                  <h4 className="font-semibold text-lg"> Secondary(Class X)</h4>
+                  <p className="text-muted-foreground">
+                
+          SDS Kids International Public School, Jhinjhak
+          2020 - 2021<br/>
+          Percentage: 91%
+                   
+                  </p>
 
-            <div className="gradient-border p-6 card-hover">
-              <div className="flex items-start gap-4">
-                <div className="p-3 rounded-full bg-primary-10">
-                  <Code className="h-6 w-6 text-primary" />
                 </div>
               </div>
             </div>
@@ -63,7 +70,36 @@ export const AboutSection = () => {
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary-10">
-                  <Code className="h-6 w-6 text-primary" />
+                  <User className="h-6 w-6 text-primary" />
+                </div>
+                <div className="text-left">
+                  <h4 className="font-semibold text-lg">Higher Secondary<br/>(Class XII)</h4>
+                  <p className="text-muted-foreground">
+                
+           SDS Kids International Public School, Jhinjhak
+          2022 - 2023<br/>
+          Percentage: 90%
+                   
+                  </p>
+
+                </div>
+              </div>
+            </div>
+
+            <div className="gradient-border p-6 card-hover">
+              <div className="flex items-start gap-4">
+                <div className="p-3 rounded-full bg-primary-10">
+                  <Briefcase className="h-6 w-6 text-primary" />
+                </div>
+                <div className="text-left">
+                  <h4 className="font-semibold text-lg">B.Tech in Computer Science & Engineering<br/> (Computer Science & Information Technology)</h4>
+                  <p className="text-muted-foreground">
+                
+          Ajay Kumar Garg Engineering College, Ghaziabad
+
+2024 - 2028
+                  </p>
+
                 </div>
               </div>
             </div>
